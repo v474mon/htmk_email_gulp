@@ -1,0 +1,29 @@
+mixin b_block_4()
+	tr
+		td(style="padding:30px 20px; background:white;")
+			h2(style="font26px Arial; color:#434045; margin:0 0 20px; text-align:center")
+				|	Одни из лучших астрологов
+			table(align="center" cellspacing="0" cellpadding="0" width="100%")
+				tr
+					- var n = 0
+					while n < 3
+						- n++
+						td(style="width:15px")
+						td.td_block.mobile_margin
+							table.radius(align="center" cellspacing="0" cellpadding="10" style="border:1px solid silver")
+								tr
+									td.td_block
+										img(src='http://placehold.it/90x90' alt="90x90")
+								tr
+									td.td_block
+										p(style="font:14px/1.5 Arial; margin-bottom: 0")
+											b Артем Колпачев
+										div(style="font:14px/1.5 Arial")
+											|	Экстрасенс, Астролог
+								tr
+									td.td_block
+										table(align="center" cellspacing="0" cellpadding="0" width="100%")
+											tr
+												td.radius.td_block(style="padding:7px 12px; background:#57c582;")
+													a(href="#" style="color:white; text-decoration:none; font:bold 14px/1.5 Arial; text-align:left")
+														| Смотреть на сайте

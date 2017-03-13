@@ -1,0 +1,13 @@
+include ../blocks/_all
+
+doctype html
+html
+	head
+		meta(charset="utf-8")
+		+b_style()
+		block title
+			title HTML email template
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+
+	body(style="background-color:#423655; text-align:center; font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 0; width: 100%; text-align: center; height: 100%;" align="center")
+		block content
